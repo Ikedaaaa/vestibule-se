@@ -5,6 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Vestibule-se - Página Inicial</title>
+<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <link rel="stylesheet" href="css/telaInicial.css">
 <link rel="stylesheet" href="css/util.css">
 <link rel="stylesheet" href="css/main.css">

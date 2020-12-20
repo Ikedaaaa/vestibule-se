@@ -3,8 +3,8 @@ use Vestibule_se;
 
 create table if not exists Administrador(
 administrador_id integer auto_increment not null,
-login_administrador varchar(15),
-senha_administrador varchar(25),
+login_administrador varchar(40),
+senha_administrador varchar(50),
 Primary key(administrador_id)
 );
 
@@ -12,7 +12,7 @@ create table if not exists Aluno(
 aluno_id integer auto_increment not null,
 nome_aluno varchar(100),
 email_aluno varchar(100),
-senha_aluno varchar(25),
+senha_aluno varchar(50),
 Primary key(aluno_id)
 );
 
