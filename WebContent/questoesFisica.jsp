@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Vestibule-se - Questões de física</title>
+<title>Vestibule-se - Questões de Física</title>
+<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <link rel="stylesheet" href="css/telaInicial.css">
 <link rel="stylesheet" href="css/telaPrincipal.css">
 <link rel="stylesheet" href="css/dicasSobreRedacao.css">
@@ -172,7 +173,7 @@ function ValidacaoPortugues (){
 
 <div class="col-sm-8">
 
-<h1> Questionário de Matemática</h1> <br>
+<h1> Questionário de Física</h1> <br>
 
 
 

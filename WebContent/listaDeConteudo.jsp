@@ -5,6 +5,7 @@
 <head>
 
 <title>Vestibule-se - Lista de Conteúdo</title>
+<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <link rel="stylesheet" href="css/telaInicial.css">
 <link rel="stylesheet" href="css/telaPrincipal.css">
 <link rel="stylesheet" href="css/util.css">

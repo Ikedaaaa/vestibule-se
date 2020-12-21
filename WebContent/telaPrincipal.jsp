@@ -4,7 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Vestibule-se - Página Inicial</title>
+<title>Vestibule-se - Página Principal</title>
+<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <link rel="stylesheet" href="css/telaInicial.css">
 <link rel="stylesheet" href="css/telaPrincipal.css">
 <link rel="stylesheet" href="css/util.css">

@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Vestibule-se - Escolha do Cursinho</title>
+<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <link rel="stylesheet" href="css/util.css">
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/telaInicial.css">

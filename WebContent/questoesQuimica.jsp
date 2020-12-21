@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Vestibule-se - Questões de química</title>
+<title>Vestibule-se - Questões de Química</title>
+<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <link rel="stylesheet" href="css/telaInicial.css">
 <link rel="stylesheet" href="css/telaPrincipal.css">
 <link rel="stylesheet" href="css/dicasSobreRedacao.css">
@@ -172,7 +173,7 @@ function ValidacaoPortugues (){
 
 <div class="col-sm-8">
 
-<h1> Questionário de Matemática</h1> <br>
+<h1> Questionário de Química</h1> <br>
 
 
 

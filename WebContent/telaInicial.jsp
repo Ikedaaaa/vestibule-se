@@ -5,11 +5,10 @@
 <head>
 <meta charset="UTF-8">
 <title>Vestibule-se - Página Inicial</title>
-<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<link rel="icon" type="image/png" href="imagens/favicon.ico"/>
 <link rel="stylesheet" href="css/telaInicial.css">
 <link rel="stylesheet" href="css/util.css">
 <link rel="stylesheet" href="css/main.css">
-<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -91,7 +90,7 @@
     <p>O Vestibule-se disponibiliza na aba referente a biblioteca virtual, PDFs com os livros presentes na lista da Unicamp e da Fuvest. Permitindo um acesso rápido e fácil.</p>
     <br>
 
-    <a name="listaDeConteudo" id="listaDeConteudo"><h1>Lista de Contéudos</h1></a>
+    <a name="listaDeConteudo" id="listaDeConteudo"><h1>Lista de Conteúdos</h1></a>
     <h6>Lista com os conteúdos de maior recorrência nos principais vestibulares de São Paulo.</h6>
     <div ><img  class="img-icone" src="imagens/lista-icone.png" alt="blab"></div>
     <p>Através de pesquisas a equipe The Golden Code elaborou uma lista com os conteúdos mais cobrados no Enem, Unicamp e Fuvest. E ela esta disponível na aba "Lista de Conteúdos" para os cadastrados no Vestibule-se.</p>
