@@ -1,10 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Vestibule-se - Página Inicial</title>
+<meta charset="UTF-8">
+<title>Vestibule-se - PÃ¡gina Inicial</title>
 <link rel="stylesheet" href="css/telaInicial.css">
 <link rel="stylesheet" href="css/telaPrincipal.css">
 <link rel="stylesheet" href="css/util.css">
@@ -67,22 +67,22 @@ tr:nth-child(even){background-color: #f2f2f2}
         <a class="nav-link"  href="bibliotecaVirtual.jsp" style="font-size: 20px;">Biblioteca Virtual</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="listaDeConteudo.jsp" style="font-size: 20px">Lista De Conteúdo</a>
+        <a class="nav-link" href="listaDeConteudo.jsp" style="font-size: 20px">Lista De ConteÃºdo</a>
       </li>
       <li class="dropdown">
           <button class="btn btn-ligth dropdown-toggle" style="font-size: 20px; color: rgb(0, 123, 255);font-family: Poppins-Regular, sans-serif" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Questões
+              QuestÃµes
             </button> 
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-               <a class="dropdown-item" href="questoesMatematica.jsp">Matemática</a>
+               <a class="dropdown-item" href="questoesMatematica.jsp">MatemÃ¡tica</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="questoesPortugues.jsp">Português</a>
+              <a class="dropdown-item" href="questoesPortugues.jsp">PortuguÃªs</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="questoesHistoria.jsp">História</a>
+              <a class="dropdown-item" href="questoesHistoria.jsp">HistÃ³ria</a>
               <a class="dropdown-item" href="questoesGeografia.jsp">Geografia</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="questoesFisica.jsp">Física</a>
-              <a class="dropdown-item" href="questoesQuimica.jsp">Química</a>
+              <a class="dropdown-item" href="questoesFisica.jsp">FÃ­sica</a>
+              <a class="dropdown-item" href="questoesQuimica.jsp">QuÃ­mica</a>
               <a class="dropdown-item" href="questoesBiologia.jsp">Biologia</a>
             </div>    
             </li>
@@ -97,7 +97,7 @@ tr:nth-child(even){background-color: #f2f2f2}
           <a class="nav-link" href="escolhaDoCursinho.jsp" style="font-size: 20px">Escolha do Cursinho</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="dicasSobreRedacao.jsp" style="font-size: 20px">Dicas Sobre Redação</a>
+          <a class="nav-link" href="dicasSobreRedacao.jsp" style="font-size: 20px">Dicas Sobre RedaÃ§Ã£o</a>
         </li><br>
 
         <li class="nav-item">
@@ -125,7 +125,7 @@ tr:nth-child(even){background-color: #f2f2f2}
           <th style="text-align: center;">UNIFESP</th>
         </tr>
         <tr>
-          <td style="font-weight: bold;">ISENÇÃO</td>
+          <td style="font-weight: bold;">ISENÃ‡ÃƒO</td>
           <td style="text-align: center;">22/06 a 08/07/20</td>
           <td style="text-align: center;">15/06 a 10/07/20</td>
           <td style="text-align: center;">06/04 a 17/04/2020</td>
@@ -133,7 +133,7 @@ tr:nth-child(even){background-color: #f2f2f2}
           <td style="text-align: center;">21/09 a 23/10/20</td>
         </tr>
         <tr>
-          <td style="font-weight: bold;">INSCRIÇÃO</td>
+          <td style="font-weight: bold;">INSCRIÃ‡ÃƒO</td>
           <td style="text-align: center;">30/07 a 08/09/20</td>
           <td style="text-align: center;">15/06 a 10/07/20</td>
           <td style="text-align: center;">11/05 a 22/05/20</td>
@@ -141,7 +141,7 @@ tr:nth-child(even){background-color: #f2f2f2}
           <td style="text-align: center;">21/09 a 23/10/20</td>
         </tr>
         <tr>
-          <td style="font-weight: bold;">1ª FASE</td>
+          <td style="font-weight: bold;">1Âª FASE</td>
           <td style="text-align: center;">06/01/21 e 07/01/21</td>
           <td style="text-align: center;">10/01/21</td>
           <td style="text-align: center;">17/01/21</td>
@@ -149,7 +149,7 @@ tr:nth-child(even){background-color: #f2f2f2}
           <td style="text-align: center;">Enem</td>
         </tr>
         <tr>
-            <td style="font-weight: bold;">2ª FASE</td>
+            <td style="font-weight: bold;">2Âª FASE</td>
             <td style="text-align: center;">07/02/21 e 08/02/21</td>
             <td style="text-align: center;">21/02/21 e 22/02/21</td>
             <td style="text-align: center;">24/01/2021</td>

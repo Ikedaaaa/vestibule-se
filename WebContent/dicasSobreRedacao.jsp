@@ -1,10 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Vestibule-se - Dicas Sobre Redação</title>
+<meta charset="UTF-8">
+<title>Vestibule-se - Dicas Sobre RedaÃ§Ã£o</title>
 
 <link rel="stylesheet" href="css/telaInicial.css">
 <link rel="stylesheet" href="css/telaPrincipal.css">
@@ -69,22 +69,22 @@ function openCity(evt, cityName) {
       <a class="nav-link"  href="bibliotecaVirtual.jsp" style="font-size: 20px;">Biblioteca Virtual</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="listaDeConteudo.jsp" style="font-size: 20px">Lista De Conteúdo</a>
+      <a class="nav-link" href="listaDeConteudo.jsp" style="font-size: 20px">Lista De ConteÃºdo</a>
     </li>
     <li class="dropdown">
         <button  class="btn btn-ligth dropdown-toggle" style="font-size: 20px; color: rgb(0, 123, 255);font-family: Poppins-Regular, sans-serif" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Questões
+            QuestÃµes
           </button> 
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-             <a class="dropdown-item" href="questoesMatematica.jsp">Matemática</a>
+             <a class="dropdown-item" href="questoesMatematica.jsp">MatemÃ¡tica</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="questoesPortugues.jsp">Português</a>
+              <a class="dropdown-item" href="questoesPortugues.jsp">PortuguÃªs</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="questoesHistoria.jsp">História</a>
+              <a class="dropdown-item" href="questoesHistoria.jsp">HistÃ³ria</a>
               <a class="dropdown-item" href="questoesGeografia.jsp">Geografia</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="questoesFisica.jsp">Física</a>
-              <a class="dropdown-item" href="questoesQuimica.jsp">Química</a>
+              <a class="dropdown-item" href="questoesFisica.jsp">FÃ­sica</a>
+              <a class="dropdown-item" href="questoesQuimica.jsp">QuÃ­mica</a>
               <a class="dropdown-item" href="questoesBiologia.jsp">Biologia</a>
           </div>    
           </li>
@@ -99,7 +99,7 @@ function openCity(evt, cityName) {
         <a class="nav-link" href="escolhaDoCursinho.jsp" style="font-size: 20px">Escolha do Cursinho</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="dicasSobreRedacao.jsp" style="font-size: 20px">Dicas Sobre Redação</a>
+        <a class="nav-link" href="dicasSobreRedacao.jsp" style="font-size: 20px">Dicas Sobre RedaÃ§Ã£o</a>
       </li><br>
 
       <li class="nav-item">
@@ -114,9 +114,9 @@ function openCity(evt, cityName) {
 
 
     
-    <a name="bibliotecaVirtual" id="bibliotecaVirtual" ><h1>Dicas Sobre Redação</h1></a><br><br>
+    <a name="bibliotecaVirtual" id="bibliotecaVirtual" ><h1>Dicas Sobre RedaÃ§Ã£o</h1></a><br><br>
   <div>
-    <p>Selecione o modelo de redação que você deseja:</p>
+    <p>Selecione o modelo de redaÃ§Ã£o que vocÃª deseja:</p>
     
     <div class="tab">
       <button class="tablinks active" style="font-family: Poppins-Regular, sans-serif" onclick="openCity(event, 'modeloEnem')">Modelo Enem</button>
@@ -124,25 +124,25 @@ function openCity(evt, cityName) {
     </div>
     
     <div id="modeloEnem" class="tabcontent" style="display:block;">
-      <h3 style="font-family: Poppins-Regular, sans-serif">Redação - Enem</h3>
-      <p style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(199, 169, 0)">Introdução</p> 
-      <p style="font-family: Poppins-Regular, sans-serif; ">Nesse parágrafo do texto dissertativo argumentativo modelo Enem, é importante que candidato introduza o tema com alguma citação e se posicione de maneira clara.</p> 
+      <h3 style="font-family: Poppins-Regular, sans-serif">RedaÃ§Ã£o - Enem</h3>
+      <p style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(199, 169, 0)">IntroduÃ§Ã£o</p> 
+      <p style="font-family: Poppins-Regular, sans-serif; ">Nesse parÃ¡grafo do texto dissertativo argumentativo modelo Enem, Ã© importante que candidato introduza o tema com alguma citaÃ§Ã£o e se posicione de maneira clara.</p> 
       <p style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(199, 169, 0)">Desenvolvimento 1</p> 
-      <p style="font-family: Poppins-Regular, sans-serif; ">No primeiro parágrafo de desenvolvimento o candidato deve argumento o porque o tema apresentado é um problema, utilizando de comprovações, que podem vir de alusões históricas, dados dos textos motivadores, citação de filmes etc.</p> 
+      <p style="font-family: Poppins-Regular, sans-serif; ">No primeiro parÃ¡grafo de desenvolvimento o candidato deve argumento o porque o tema apresentado Ã© um problema, utilizando de comprovaÃ§Ãµes, que podem vir de alusÃµes histÃ³ricas, dados dos textos motivadores, citaÃ§Ã£o de filmes etc.</p> 
       <p style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(199, 169, 0)">Desenvolvimento 2</p> 
-      <p style="font-family: Poppins-Regular, sans-serif; ">O segundo parágrafo de desenvolvimento espera que o candidato argumente sobre o que impede o problema de ser resolvido. Também devem ser feitas citações.</p> 
-      <p style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(199, 169, 0)">Conclusão</p> 
-      <p style="font-family: Poppins-Regular, sans-serif; ">O paragráfo de conclusão do Enem deve apresentar proposta de intervenção com: agente, ação, modo, efeito e detalhamento.</p> 
+      <p style="font-family: Poppins-Regular, sans-serif; ">O segundo parÃ¡grafo de desenvolvimento espera que o candidato argumente sobre o que impede o problema de ser resolvido. TambÃ©m devem ser feitas citaÃ§Ãµes.</p> 
+      <p style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(199, 169, 0)">ConclusÃ£o</p> 
+      <p style="font-family: Poppins-Regular, sans-serif; ">O paragrÃ¡fo de conclusÃ£o do Enem deve apresentar proposta de intervenÃ§Ã£o com: agente, aÃ§Ã£o, modo, efeito e detalhamento.</p> 
     </div>
     
     <div id="modeloFuvest" class="tabcontent">
-      <h3 style="font-family: Poppins-Regular, sans-serif">Redação - Fuvest</h3>
-      <p style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(199, 169, 0)">Introdução</p> 
-      <p style="font-family: Poppins-Regular, sans-serif; ">Nesse parágrafo o candidato deve apresentar o tema fazendo alguma alusão histórica ou filosófica, além de se posicionar claramente</p> 
+      <h3 style="font-family: Poppins-Regular, sans-serif">RedaÃ§Ã£o - Fuvest</h3>
+      <p style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(199, 169, 0)">IntroduÃ§Ã£o</p> 
+      <p style="font-family: Poppins-Regular, sans-serif; ">Nesse parÃ¡grafo o candidato deve apresentar o tema fazendo alguma alusÃ£o histÃ³rica ou filosÃ³fica, alÃ©m de se posicionar claramente</p> 
       <p style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(199, 169, 0)">Desenvolvimento</p> 
-      <p style="font-family: Poppins-Regular, sans-serif; ">O parágrafo de desenvolvimento é geralmente dividido em dois, sendo que em ambos o candidato deve comprovar que seu posicionamento é válido, através de citações.</p> 
-      <p style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(199, 169, 0)">Conclusão</p> 
-      <p style="font-family: Poppins-Regular, sans-serif; ">O parágrafo de conclusão no modelo Fuvest, exige que o candidato retome e conclua suas ideias.</p> 
+      <p style="font-family: Poppins-Regular, sans-serif; ">O parÃ¡grafo de desenvolvimento Ã© geralmente dividido em dois, sendo que em ambos o candidato deve comprovar que seu posicionamento Ã© vÃ¡lido, atravÃ©s de citaÃ§Ãµes.</p> 
+      <p style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(199, 169, 0)">ConclusÃ£o</p> 
+      <p style="font-family: Poppins-Regular, sans-serif; ">O parÃ¡grafo de conclusÃ£o no modelo Fuvest, exige que o candidato retome e conclua suas ideias.</p> 
     
     </div>
     

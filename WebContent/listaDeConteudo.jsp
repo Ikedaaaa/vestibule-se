@@ -1,10 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 
-<title>Vestibule-se - Lista de Conte˙do</title>
+<title>Vestibule-se - Lista de Conte√∫do</title>
 <link rel="stylesheet" href="css/telaInicial.css">
 <link rel="stylesheet" href="css/telaPrincipal.css">
 <link rel="stylesheet" href="css/util.css">
@@ -113,25 +113,25 @@
                         Virtual</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="listaDeConteudo.jsp" style="font-size: 20px">Lista De Conte˙do</a>
+                    <a class="nav-link" href="listaDeConteudo.jsp" style="font-size: 20px">Lista De Conte√∫do</a>
                 </li>
                 <li class="dropdown">
                     <button class="btn btn-ligth dropdown-toggle"
                         style="font-size: 20px; color: rgb(0, 123, 255);font-family: Poppins-Regular, sans-serif"
                         type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false">
-                        Questıes
+                        Quest√µes
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                         <a class="dropdown-item" href="questoesMatematica.jsp">Matem·tica</a>
+                         <a class="dropdown-item" href="questoesMatematica.jsp">Matem√°tica</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="questoesPortugues.jsp">PortuguÍs</a>
+              <a class="dropdown-item" href="questoesPortugues.jsp">Portugu√™s</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="questoesHistoria.jsp">HistÛria</a>
+              <a class="dropdown-item" href="questoesHistoria.jsp">Hist√≥ria</a>
               <a class="dropdown-item" href="questoesGeografia.jsp">Geografia</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="questoesFisica.jsp">FÌsica</a>
-              <a class="dropdown-item" href="questoesQuimica.jsp">QuÌmica</a>
+              <a class="dropdown-item" href="questoesFisica.jsp">F√≠sica</a>
+              <a class="dropdown-item" href="questoesQuimica.jsp">Qu√≠mica</a>
               <a class="dropdown-item" href="questoesBiologia.jsp">Biologia</a>
                     </div>
                 </li>
@@ -148,7 +148,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="dicasSobreRedacao.jsp" style="font-size: 20px">Dicas Sobre
-                        RedaÁ„o</a>
+                        Reda√ß√£o</a>
                 </li><br>
 
                 <li class="nav-item">
@@ -164,7 +164,7 @@
 
 
             <a name="ListaDeConteudo" id="listaDEConteudo">
-                <h1>Lista de Conte˙do</h1>
+                <h1>Lista de Conte√∫do</h1>
             </a><br><br>
             <div>
                 <p>Selecione o vestibular que deseja:</p>
@@ -178,31 +178,31 @@
 
                 <div id="enem" class="tabcontent" style="display:block;">
                     <p style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">
-                        PortuguÍs</p>
+                        Portugu√™s</p>
                     <div>
 
                         <table style="font-family: Poppins-Regular, sans-serif;">
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    IncidÍncia</th>
+                                    Incid√™ncia</th>
 
                             </tr>
                             <tr>
-                                <td>TendÍncias contempor‚neas</td>
+                                <td>Tend√™ncias contempor√¢neas</td>
                                 <td style="text-align: center;">28%</td>
 
                             </tr>
                             <tr>
-                                <td>Estrutura e formaÁ„o das palavras</td>
+                                <td>Estrutura e forma√ß√£o das palavras</td>
                                 <td style="text-align: center;">21%</td>
 
                             </tr>
                             <tr>
-                                <td>PontuaÁ„o</td>
+                                <td>Pontua√ß√£o</td>
                                 <td style="text-align: center;">10%</td>
 
                             </tr>
@@ -217,7 +217,7 @@
 
                             </tr>
                             <tr>
-                                <td>Preceitos b·sicos dos estudos liter·rios</td>
+                                <td>Preceitos b√°sicos dos estudos liter√°rios</td>
                                 <td style="text-align: center;">7%</td>
 
                             </tr>
@@ -232,12 +232,12 @@
 
                             </tr>
                             <tr>
-                                <td>Modernismo no Brasil: 1™ geraÁ„o</td>
+                                <td>Modernismo no Brasil: 1¬™ gera√ß√£o</td>
                                 <td style="text-align: center;">3%</td>
 
                             </tr>
                             <tr>
-                                <td>Modernismo no Brasil: 3™ geraÁ„o</td>
+                                <td>Modernismo no Brasil: 3¬™ gera√ß√£o</td>
                                 <td style="text-align: center;">3%</td>
 
                             </tr>
@@ -247,7 +247,7 @@
 
                             </tr>
                             <tr>
-                                <td>PrÈ-modernismo</td>
+                                <td>Pr√©-modernismo</td>
                                 <td style="text-align: center;">3%</td>
 
                             </tr>
@@ -259,15 +259,15 @@
 
                         <p
                             style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">
-                            InterpretaÁ„o de Texto</p>
+                            Interpreta√ß√£o de Texto</p>
                         <table style="font-family: Poppins-Regular, sans-serif;">
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    IncidÍncia</th>
+                                    Incid√™ncia</th>
 
                             </tr>
                             <tr>
@@ -286,7 +286,7 @@
 
                             </tr>
                             <tr>
-                                <td>FunÁıes de linguagem </td>
+                                <td>Fun√ß√µes de linguagem </td>
                                 <td style="text-align: center;">13%</td>
 
                             </tr>
@@ -301,17 +301,17 @@
 
                             </tr>
                             <tr>
-                                <td>VariaÁ„o linguÌstica</td>
+                                <td>Varia√ß√£o lingu√≠stica</td>
                                 <td style="text-align: center;">4%</td>
 
                             </tr>
                             <tr>
-                                <td>Express„o</td>
+                                <td>Express√£o</td>
                                 <td style="text-align: center;">2%</td>
 
                             </tr>
                             <tr>
-                                <td>CoerÍncia e concis„o</td>
+                                <td>Coer√™ncia e concis√£o</td>
                                 <td style="text-align: center;">1%</td>
 
                             </tr>
@@ -321,17 +321,17 @@
 
                             </tr>
                             <tr>
-                                <td>Figuras de linguagem ligadas ao aspecto sem‚ntico</td>
+                                <td>Figuras de linguagem ligadas ao aspecto sem√¢ntico</td>
                                 <td style="text-align: center;">1%</td>
 
                             </tr>
                             <tr>
-                                <td>Ambiguidade e sem‚ntica</td>
+                                <td>Ambiguidade e sem√¢ntica</td>
                                 <td style="text-align: center;">0,5%</td>
 
                             </tr>
                             <tr>
-                                <td>Coes„o</td>
+                                <td>Coes√£o</td>
                                 <td style="text-align: center;">0,5%</td>
 
                             </tr>
@@ -347,19 +347,19 @@
 
                         <p
                             style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">
-                            InglÍs e Espanhol</p>
+                            Ingl√™s e Espanhol</p>
                         <table style="font-family: Poppins-Regular, sans-serif;">
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    IncidÍncia</th>
+                                    Incid√™ncia</th>
 
                             </tr>
                             <tr>
-                                <td>InterpretaÁ„o de texto</td>
+                                <td>Interpreta√ß√£o de texto</td>
                                 <td style="text-align: center;">100%</td>
                         </table>
                     </div><br><br>
@@ -373,30 +373,30 @@
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    IncidÍncia</th>
+                                    Incid√™ncia</th>
 
                             </tr>
                             <tr>
-                                <td>Arte contempor‚nea</td>
+                                <td>Arte contempor√¢nea</td>
                                 <td style="text-align: center;">60%</td>
                             </tr>
                             <tr>
-                                <td>Arte nos sÈculos XV e XVI</td>
+                                <td>Arte nos s√©culos XV e XVI</td>
                                 <td style="text-align: center;">10%</td>
                             </tr>
                             <tr>
-                                <td>Elementos b·sicos das Artes Pl·sticas</td>
+                                <td>Elementos b√°sicos das Artes Pl√°sticas</td>
                                 <td style="text-align: center;">10%</td>
                             </tr>
                             <tr>
-                                <td>Elementos b·sicos de M˙sica</td>
+                                <td>Elementos b√°sicos de M√∫sica</td>
                                 <td style="text-align: center;">10%</td>
                             </tr>
                             <tr>
-                                <td>M˙sica no sÈculo XX</td>
+                                <td>M√∫sica no s√©culo XX</td>
                                 <td style="text-align: center;">5%</td>
                             </tr>
                             <tr>
@@ -411,27 +411,27 @@
 
                         <p
                             style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">
-                            HistÛria</p>
+                            Hist√≥ria</p>
                         <table style="font-family: Poppins-Regular, sans-serif;">
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    IncidÍncia</th>
+                                    Incid√™ncia</th>
 
                             </tr>
                             <tr>
-                                <td>2™ Guerra Mundial e suas consequÍncias</td>
+                                <td>2¬™ Guerra Mundial e suas consequ√™ncias</td>
                                 <td style="text-align: center;">13,6%</td>
                             </tr>
                             <tr>
-                                <td>2∫ Reinado</td>
+                                <td>2¬∫ Reinado</td>
                                 <td style="text-align: center;">12,3%</td>
                             </tr>
                             <tr>
-                                <td>Governos pÛs-regime militar</td>
+                                <td>Governos p√≥s-regime militar</td>
                                 <td style="text-align: center;">12,3%</td>
                             </tr>
                             <tr>
@@ -439,19 +439,19 @@
                                 <td style="text-align: center;">11,1%</td>
                             </tr>
                             <tr>
-                                <td>A Rep˙blica Velha</td>
+                                <td>A Rep√∫blica Velha</td>
                                 <td style="text-align: center;">9,9%</td>
                             </tr>
                             <tr>
-                                <td>Baixa Idade MÈdia</td>
+                                <td>Baixa Idade M√©dia</td>
                                 <td style="text-align: center;">8,6%</td>
                             </tr>
                             <tr>
-                                <td>AdministraÁ„o colonial</td>
+                                <td>Administra√ß√£o colonial</td>
                                 <td style="text-align: center;">4,9%</td>
                             </tr>
                             <tr>
-                                <td>GrÈcia e Roma</td>
+                                <td>Gr√©cia e Roma</td>
                                 <td style="text-align: center;">4,9%</td>
                             </tr>
                             <tr>
@@ -463,7 +463,7 @@
                                 <td style="text-align: center;">4,9%</td>
                             </tr>
                             <tr>
-                                <td>A Rep˙blica Populista</td>
+                                <td>A Rep√∫blica Populista</td>
                                 <td style="text-align: center;">2,5%</td>
                             </tr>
                             <tr>
@@ -471,23 +471,23 @@
                                 <td style="text-align: center;">2,5%</td>
                             </tr>
                             <tr>
-                                <td>Reformas e revoluÁıes</td>
+                                <td>Reformas e revolu√ß√µes</td>
                                 <td style="text-align: center;">2,5%</td>
                             </tr>
                             <tr>
-                                <td>2™ RevoluÁ„o Industrial e 1™ Guerra</td>
+                                <td>2¬™ Revolu√ß√£o Industrial e 1¬™ Guerra</td>
                                 <td style="text-align: center;">1,2%</td>
                             </tr>
                             <tr>
-                                <td>Baixa Idade MÈdia e Grandes NavegaÁıes</td>
+                                <td>Baixa Idade M√©dia e Grandes Navega√ß√µes</td>
                                 <td style="text-align: center;">1,2%</td>
                             </tr>
                             <tr>
-                                <td>O processo de independÍncia</td>
+                                <td>O processo de independ√™ncia</td>
                                 <td style="text-align: center;">1,2%</td>
                             </tr>
                             <tr>
-                                <td>RevoluÁ„o Industrial e Iluminismo</td>
+                                <td>Revolu√ß√£o Industrial e Iluminismo</td>
                                 <td style="text-align: center;">1,2%</td>
                             </tr>
                             <tr>
@@ -508,14 +508,14 @@
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    IncidÍncia</th>
+                                    Incid√™ncia</th>
 
                             </tr>
                             <tr>
-                                <td>Questıes ambientais</td>
+                                <td>Quest√µes ambientais</td>
                                 <td style="text-align: center;">15,5%</td>
 
                             </tr>
@@ -525,12 +525,12 @@
 
                             </tr>
                             <tr>
-                                <td>UrbanizaÁ„o</td>
+                                <td>Urbaniza√ß√£o</td>
                                 <td style="text-align: center;">10,4%</td>
 
                             </tr>
                             <tr>
-                                <td>GlobalizaÁ„o</td>
+                                <td>Globaliza√ß√£o</td>
                                 <td style="text-align: center;">9,1%</td>
 
                             </tr>
@@ -540,12 +540,12 @@
 
                             </tr>
                             <tr>
-                                <td>Geografia agr·ria</td>
+                                <td>Geografia agr√°ria</td>
                                 <td style="text-align: center;">6,5%</td>
 
                             </tr>
                             <tr>
-                                <td>Ind˙stria</td>
+                                <td>Ind√∫stria</td>
                                 <td style="text-align: center;">6,5%</td>
 
                             </tr>
@@ -570,7 +570,7 @@
 
                             </tr>
                             <tr>
-                                <td>RelaÁıes internacionais</td>
+                                <td>Rela√ß√µes internacionais</td>
                                 <td style="text-align: center;">3,9%</td>
 
                             </tr>
@@ -580,7 +580,7 @@
 
                             </tr>
                             <tr>
-                                <td>Oriente MÈdio</td>
+                                <td>Oriente M√©dio</td>
                                 <td style="text-align: center;">2,6%</td>
 
                             </tr>
@@ -590,7 +590,7 @@
 
                             </tr>
                             <tr>
-                                <td>AmÈrica Latina</td>
+                                <td>Am√©rica Latina</td>
                                 <td style="text-align: center;">1,3%</td>
 
                             </tr>
@@ -600,7 +600,7 @@
 
                             </tr>
                             <tr>
-                                <td>EspaÁo geogr·fico</td>
+                                <td>Espa√ßo geogr√°fico</td>
                                 <td style="text-align: center;">1,3%</td>
 
                             </tr>
@@ -625,14 +625,14 @@
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    IncidÍncia</th>
+                                    Incid√™ncia</th>
 
                             </tr>
                             <tr>
-                                <td>AristÛteles e escola helenÌstica</td>
+                                <td>Arist√≥teles e escola helen√≠stica</td>
                                 <td style="text-align: center;">18,8%</td>
 
                             </tr>
@@ -642,12 +642,12 @@
 
                             </tr>
                             <tr>
-                                <td>Escola sofÌstica, SÛcrates e Plat„o</td>
+                                <td>Escola sof√≠stica, S√≥crates e Plat√£o</td>
                                 <td style="text-align: center;">12,5%</td>
 
                             </tr>
                             <tr>
-                                <td>Filosofia Contempor‚nea</td>
+                                <td>Filosofia Contempor√¢nea</td>
                                 <td style="text-align: center;">12,4%</td>
 
                             </tr>
@@ -657,7 +657,7 @@
 
                             </tr>
                             <tr>
-                                <td>Idealismo alem„o</td>
+                                <td>Idealismo alem√£o</td>
                                 <td style="text-align: center;">6,3%</td>
 
                             </tr>
@@ -696,14 +696,14 @@
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    IncidÍncia</th>
+                                    Incid√™ncia</th>
 
                             </tr>
                             <tr>
-                                <td>Sociologia contempor‚nea</td>
+                                <td>Sociologia contempor√¢nea</td>
                                 <td style="text-align: center;">28,6%</td>
 
                             </tr>
@@ -713,12 +713,12 @@
 
                             </tr>
                             <tr>
-                                <td>Cultura e educaÁ„o</td>
+                                <td>Cultura e educa√ß√£o</td>
                                 <td style="text-align: center;">14,3%</td>
 
                             </tr>
                             <tr>
-                                <td>PolÌtica, poder e Estado</td>
+                                <td>Pol√≠tica, poder e Estado</td>
                                 <td style="text-align: center;">14,3%</td>
 
                             </tr>
@@ -733,7 +733,7 @@
 
                             </tr>
                             <tr>
-                                <td>Ind˙stria cultural </td>
+                                <td>Ind√∫stria cultural </td>
                                 <td style="text-align: center;">7,1%</td>
 
                             </tr>
@@ -757,24 +757,24 @@
 
                         <p
                             style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">
-                            FÌsica</p>
+                            F√≠sica</p>
                         <table style="font-family: Poppins-Regular, sans-serif;">
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    IncidÍncia</th>
+                                    Incid√™ncia</th>
 
                             </tr>
                             <tr>
-                                <td>Ac˙stica</td>
+                                <td>Ac√∫stica</td>
                                 <td style="text-align: center;">11%</td>
 
                             </tr>
                             <tr>
-                                <td>Energia, trabalho e potÍncia</td>
+                                <td>Energia, trabalho e pot√™ncia</td>
                                 <td style="text-align: center;">8,2%</td>
 
                             </tr>
@@ -789,12 +789,12 @@
 
                             </tr>
                             <tr>
-                                <td>Impulso, quantidade de movimento e an·lise dimensional</td>
+                                <td>Impulso, quantidade de movimento e an√°lise dimensional</td>
                                 <td style="text-align: center;">5,5%</td>
 
                             </tr>
                             <tr>
-                                <td>IntroduÁ„o ‡ ”ptica GeomÈtrica</td>
+                                <td>Introdu√ß√£o √† √ìptica Geom√©trica</td>
                                 <td style="text-align: center;">5,5%</td>
 
                             </tr>
@@ -804,7 +804,7 @@
 
                             </tr>
                             <tr>
-                                <td>ForÁas magnÈticas, induÁ„o e fluxo</td>
+                                <td>For√ßas magn√©ticas, indu√ß√£o e fluxo</td>
                                 <td style="text-align: center;">4,1%</td>
 
                             </tr>
@@ -819,27 +819,27 @@
 
                             </tr>
                             <tr>
-                                <td>InterferÍncia</td>
+                                <td>Interfer√™ncia</td>
                                 <td style="text-align: center;">4,1%</td>
 
                             </tr>
                             <tr>
-                                <td>RefraÁ„o e lentes</td>
+                                <td>Refra√ß√£o e lentes</td>
                                 <td style="text-align: center;">4,1%</td>
 
                             </tr>
                             <tr>
-                                <td>EquilÌbrio</td>
+                                <td>Equil√≠brio</td>
                                 <td style="text-align: center;">2,7%</td>
 
                             </tr>
                             <tr>
-                                <td>Hidrost·tica</td>
+                                <td>Hidrost√°tica</td>
                                 <td style="text-align: center;">2,7%</td>
 
                             </tr>
                             <tr>
-                                <td>Instrumentos Ûpticos e Ûptica da vis„o</td>
+                                <td>Instrumentos √≥pticos e √≥ptica da vis√£o</td>
                                 <td style="text-align: center;">2,7%</td>
 
                             </tr>
@@ -849,42 +849,42 @@
 
                             </tr>
                             <tr>
-                                <td>MudanÁas de estado</td>
+                                <td>Mudan√ßas de estado</td>
                                 <td style="text-align: center;">2,7%</td>
 
                             </tr>
                             <tr>
-                                <td>Ondas periÛdicas</td>
+                                <td>Ondas peri√≥dicas</td>
                                 <td style="text-align: center;">2,7%</td>
 
                             </tr>
                             <tr>
-                                <td>An·lise gr·fica de espaÁo, velocidade e aceleraÁ„o</td>
+                                <td>An√°lise gr√°fica de espa√ßo, velocidade e acelera√ß√£o</td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
                             <tr>
-                                <td>Cinem·tica vetorial</td>
+                                <td>Cinem√°tica vetorial</td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
                             <tr>
-                                <td>GravitaÁ„o universal</td>
+                                <td>Gravita√ß√£o universal</td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
                             <tr>
-                                <td>IntroduÁ„o ‡ Eletrodin‚mica</td>
+                                <td>Introdu√ß√£o √† Eletrodin√¢mica</td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
                             <tr>
-                                <td>LanÁamento oblÌquo no v·cuo</td>
+                                <td>Lan√ßamento obl√≠quo no v√°cuo</td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
                             <tr>
-                                <td>Magnetismo e suas interaÁıes</td>
+                                <td>Magnetismo e suas intera√ß√µes</td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
@@ -894,22 +894,22 @@
 
                             </tr>
                             <tr>
-                                <td>Movimentos retilÌneos</td>
+                                <td>Movimentos retil√≠neos</td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
                             <tr>
-                                <td>OndulatÛria</td>
+                                <td>Ondulat√≥ria</td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
                             <tr>
-                                <td>PropagaÁ„o de calor</td>
+                                <td>Propaga√ß√£o de calor</td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
                             <tr>
-                                <td>Reflex„o da luz</td>
+                                <td>Reflex√£o da luz</td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
@@ -924,34 +924,34 @@
 
                         <p
                             style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">
-                            QuÌmica</p>
+                            Qu√≠mica</p>
                         <table style="font-family: Poppins-Regular, sans-serif;">
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    IncidÍncia</th>
+                                    Incid√™ncia</th>
 
                             </tr>
                             <tr>
-                                <td>LigaÁıes quÌmicas, polaridade e forÁas</td>
+                                <td>Liga√ß√µes qu√≠micas, polaridade e for√ßas</td>
                                 <td style="text-align: center;">13,4%</td>
 
                             </tr>
                             <tr>
-                                <td>ReaÁıes org‚nicas</td>
+                                <td>Rea√ß√µes org√¢nicas</td>
                                 <td style="text-align: center;">11%</td>
 
                             </tr>
                             <tr>
-                                <td>Compostos org‚nicos</td>
+                                <td>Compostos org√¢nicos</td>
                                 <td style="text-align: center;">9,8%</td>
 
                             </tr>
                             <tr>
-                                <td>EletroquÌmica</td>
+                                <td>Eletroqu√≠mica</td>
                                 <td style="text-align: center;">8,5%</td>
 
                             </tr>
@@ -961,27 +961,27 @@
 
                             </tr>
                             <tr>
-                                <td>SoluÁıes</td>
+                                <td>Solu√ß√µes</td>
                                 <td style="text-align: center;">7,3%</td>
 
                             </tr>
                             <tr>
-                                <td>Estados fÌsicos, sistemas e misturas </td>
+                                <td>Estados f√≠sicos, sistemas e misturas </td>
                                 <td style="text-align: center;">6,1%</td>
 
                             </tr>
                             <tr>
-                                <td>EquilÌbrios, hidrÛlise e solubilidade</td>
+                                <td>Equil√≠brios, hidr√≥lise e solubilidade</td>
                                 <td style="text-align: center;">4,9%</td>
 
                             </tr>
                             <tr>
-                                <td>ReaÁıes inorg‚nicas</td>
+                                <td>Rea√ß√µes inorg√¢nicas</td>
                                 <td style="text-align: center;">4,9%</td>
 
                             </tr>
                             <tr>
-                                <td>TermoquÌmica</td>
+                                <td>Termoqu√≠mica</td>
                                 <td style="text-align: center;">4,9%</td>
 
                             </tr>
@@ -991,7 +991,7 @@
 
                             </tr>
                             <tr>
-                                <td>CinÈtica quÌmica</td>
+                                <td>Cin√©tica qu√≠mica</td>
                                 <td style="text-align: center;">2,4%</td>
 
                             </tr>
@@ -1001,32 +1001,32 @@
 
                             </tr>
                             <tr>
-                                <td>Modelos atÙmicos e distribuiÁ„o eletrÙnica </td>
+                                <td>Modelos at√¥micos e distribui√ß√£o eletr√¥nica </td>
                                 <td style="text-align: center;">2,4%</td>
 
                             </tr>
                             <tr>
-                                <td>Propriedades das subst‚ncias e forÁas intermoleculares </td>
+                                <td>Propriedades das subst√¢ncias e for√ßas intermoleculares </td>
                                 <td style="text-align: center;">2,4%</td>
 
                             </tr>
                             <tr>
-                                <td>Amino·cidos, proteÌnas, lipÌdeos e carboidratos</td>
+                                <td>Amino√°cidos, prote√≠nas, lip√≠deos e carboidratos</td>
                                 <td style="text-align: center;">1,2%</td>
 
                             </tr>
                             <tr>
-                                <td>Car·ter ·cido-b·sico de subst‚ncias org‚nicas</td>
+                                <td>Car√°ter √°cido-b√°sico de subst√¢ncias org√¢nicas</td>
                                 <td style="text-align: center;">1,2%</td>
 
                             </tr>
                             <tr>
-                                <td>OxirreduÁ„o</td>
+                                <td>Oxirredu√ß√£o</td>
                                 <td style="text-align: center;">1,2%</td>
 
                             </tr>
                             <tr>
-                                <td>PolÌmeros</td>
+                                <td>Pol√≠meros</td>
                                 <td style="text-align: center;">1,2%</td>
 
                             </tr>
@@ -1036,7 +1036,7 @@
 
                             </tr>
                             <tr>
-                                <td>Propriedades periÛdicas dos elementos </td>
+                                <td>Propriedades peri√≥dicas dos elementos </td>
                                 <td style="text-align: center;">1,2%</td>
 
                             </tr>
@@ -1060,14 +1060,14 @@
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    IncidÍncia</th>
+                                    Incid√™ncia</th>
 
                             </tr>
                             <tr>
-                                <td>Sistema imunit·rio</td>
+                                <td>Sistema imunit√°rio</td>
                                 <td style="text-align: center;">9,9%</td>
 
                             </tr>
@@ -1087,7 +1087,7 @@
 
                             </tr>
                             <tr>
-                                <td>GenÈtica </td>
+                                <td>Gen√©tica </td>
                                 <td style="text-align: center;">5,6%</td>
 
                             </tr>
@@ -1102,12 +1102,12 @@
 
                             </tr>
                             <tr>
-                                <td>ProteÌnas e enzimas </td>
+                                <td>Prote√≠nas e enzimas </td>
                                 <td style="text-align: center;">4,2%</td>
 
                             </tr>
                             <tr>
-                                <td>BioenergÈtica </td>
+                                <td>Bioenerg√©tica </td>
                                 <td style="text-align: center;">2,8%</td>
 
                             </tr>
@@ -1122,12 +1122,12 @@
 
                             </tr>
                             <tr>
-                                <td>EvoluÁ„o </td>
+                                <td>Evolu√ß√£o </td>
                                 <td style="text-align: center;">2,8%</td>
 
                             </tr>
                             <tr>
-                                <td>ExcreÁıes</td>
+                                <td>Excre√ß√µes</td>
                                 <td style="text-align: center;">2,8%</td>
 
                             </tr>
@@ -1137,22 +1137,22 @@
 
                             </tr>
                             <tr>
-                                <td>OrganizaÁ„o celular</td>
+                                <td>Organiza√ß√£o celular</td>
                                 <td style="text-align: center;">2,8%</td>
 
                             </tr>
                             <tr>
-                                <td>RelaÁıes ecolÛgicas </td>
+                                <td>Rela√ß√µes ecol√≥gicas </td>
                                 <td style="text-align: center;">2,8%</td>
 
                             </tr>
                             <tr>
-                                <td>BiogÍnese e abiogÍnese</td>
+                                <td>Biog√™nese e abiog√™nese</td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
                             <tr>
-                                <td>ClassificaÁ„o dos seres vivos</td>
+                                <td>Classifica√ß√£o dos seres vivos</td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
@@ -1167,37 +1167,37 @@
 
                             </tr>
                             <tr>
-                                <td>Grupos zoolÛgicos </td>
+                                <td>Grupos zool√≥gicos </td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
                             <tr>
-                                <td>Material genÈtico </td>
+                                <td>Material gen√©tico </td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
                             <tr>
-                                <td>Mecanismos de evoluÁ„o </td>
+                                <td>Mecanismos de evolu√ß√£o </td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
                             <tr>
-                                <td>Membrana plasm·tica </td>
+                                <td>Membrana plasm√°tica </td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
                             <tr>
-                                <td>NoÁıes de BioenergÈtica </td>
+                                <td>No√ß√µes de Bioenerg√©tica </td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
                             <tr>
-                                <td>NutriÁ„o e secreÁ„o vegetal </td>
+                                <td>Nutri√ß√£o e secre√ß√£o vegetal </td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
                             <tr>
-                                <td>Protozo·rios</td>
+                                <td>Protozo√°rios</td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
@@ -1207,7 +1207,7 @@
 
                             </tr>
                             <tr>
-                                <td>Sistema digestÛrio e vitaminas </td>
+                                <td>Sistema digest√≥rio e vitaminas </td>
                                 <td style="text-align: center;">1,4%</td>
 
                             </tr>
@@ -1249,39 +1249,39 @@
 
                         <p
                             style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">
-                            Matem·tica</p>
+                            Matem√°tica</p>
                         <table style="font-family: Poppins-Regular, sans-serif;">
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    IncidÍncia</th>
+                                    Incid√™ncia</th>
 
                             </tr>
                             <tr>
-                                <td>Problemas de 1∫ e 2∫ graus</td>
+                                <td>Problemas de 1¬∫ e 2¬∫ graus</td>
                                 <td style="text-align: center;">17%</td>
 
                             </tr>
                             <tr>
-                                <td>Grandezas proporcionais e mÈdias algÈbricas</td>
+                                <td>Grandezas proporcionais e m√©dias alg√©bricas</td>
                                 <td style="text-align: center;">14%</td>
 
                             </tr>
                             <tr>
-                                <td>Porcentagem e Matem·tica Financeira</td>
+                                <td>Porcentagem e Matem√°tica Financeira</td>
                                 <td style="text-align: center;">11%</td>
 
                             </tr>
                             <tr>
-                                <td>FunÁıes </td>
+                                <td>Fun√ß√µes </td>
                                 <td style="text-align: center;">6%</td>
 
                             </tr>
                             <tr>
-                                <td>NoÁıes b·sicas de EstatÌstica</td>
+                                <td>No√ß√µes b√°sicas de Estat√≠stica</td>
                                 <td style="text-align: center;">6%</td>
 
                             </tr>
@@ -1291,27 +1291,27 @@
 
                             </tr>
                             <tr>
-                                <td>¡rea de figuras planas e polÌgonos</td>
+                                <td>√Årea de figuras planas e pol√≠gonos</td>
                                 <td style="text-align: center;">5%</td>
 
                             </tr>
                             <tr>
-                                <td>An·lise combinatÛria</td>
+                                <td>An√°lise combinat√≥ria</td>
                                 <td style="text-align: center;">4%</td>
 
                             </tr>
                             <tr>
-                                <td>CircunferÍncias</td>
+                                <td>Circunfer√™ncias</td>
                                 <td style="text-align: center;">4%</td>
 
                             </tr>
                             <tr>
-                                <td>FunÁ„o do 2∫ grau e inequaÁıes</td>
+                                <td>Fun√ß√£o do 2¬∫ grau e inequa√ß√µes</td>
                                 <td style="text-align: center;">4%</td>
 
                             </tr>
                             <tr>
-                                <td>AritmÈtica</td>
+                                <td>Aritm√©tica</td>
                                 <td style="text-align: center;">2%</td>
 
                             </tr>
@@ -1321,12 +1321,12 @@
 
                             </tr>
                             <tr>
-                                <td>CÙnicas e gr·ficos relacionados </td>
+                                <td>C√¥nicas e gr√°ficos relacionados </td>
                                 <td style="text-align: center;">2%</td>
 
                             </tr>
                             <tr>
-                                <td>FunÁıes trigonomÈtricas (seno e cosseno)</td>
+                                <td>Fun√ß√µes trigonom√©tricas (seno e cosseno)</td>
                                 <td style="text-align: center;">2%</td>
 
                             </tr>
@@ -1341,12 +1341,12 @@
 
                             </tr>
                             <tr>
-                                <td>ParalelepÌpedos</td>
+                                <td>Paralelep√≠pedos</td>
                                 <td style="text-align: center;">2%</td>
 
                             </tr>
                             <tr>
-                                <td>PotenciaÁ„o e conjuntos numÈricos</td>
+                                <td>Potencia√ß√£o e conjuntos num√©ricos</td>
                                 <td style="text-align: center;">2%</td>
 
                             </tr>
@@ -1356,7 +1356,7 @@
 
                             </tr>
                             <tr>
-                                <td>Tri‚ngulos e polÌgonos regulares</td>
+                                <td>Tri√¢ngulos e pol√≠gonos regulares</td>
                                 <td style="text-align: center;">2%</td>
 
                             </tr>
@@ -1366,7 +1366,7 @@
 
                             </tr>
                             <tr>
-                                <td>SequÍncias numÈricas </td>
+                                <td>Sequ√™ncias num√©ricas </td>
                                 <td style="text-align: center;">1%</td>
 
 
@@ -1378,39 +1378,39 @@
                 <div id="fuvest" class="tabcontent">
 
                     <p style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">
-                        Matem·tica</p>
+                        Matem√°tica</p>
                     <div>
 
                         <table style="font-family: Poppins-Regular, sans-serif;">
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
 
 
                             </tr>
                             <tr>
-                                <td>Geometria AnalÌtica e Plana</td>
+                                <td>Geometria Anal√≠tica e Plana</td>
 
 
                             </tr>
                             <tr>
-                                <td>Trigonometria e suas funÁıes</td>
+                                <td>Trigonometria e suas fun√ß√µes</td>
 
 
                             </tr>
                             <tr>
-                                <td>FunÁıes de 1∞, 2∞ e 3∞ graus</td>
+                                <td>Fun√ß√µes de 1¬∞, 2¬∞ e 3¬∞ graus</td>
 
 
                             </tr>
                             <tr>
-                                <td>Progress„o GeomÈtrica e AritmÈtica</td>
+                                <td>Progress√£o Geom√©trica e Aritm√©tica</td>
 
 
                             </tr>
                             <tr>
-                                <td>An·lise CombinatÛria e Probabilidades</td>
+                                <td>An√°lise Combinat√≥ria e Probabilidades</td>
 
                         </table>
 
@@ -1419,14 +1419,14 @@
 
 
                     <p style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">
-                        FÌsica</p>
+                        F√≠sica</p>
                     <div>
 
                         <table style="font-family: Poppins-Regular, sans-serif;">
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
 
 
                             </tr>
@@ -1436,56 +1436,56 @@
 
                             </tr>
                             <tr>
-                                <td>Cinem·tica</td>
+                                <td>Cinem√°tica</td>
 
 
                             </tr>
                             <tr>
-                                <td>Est·tica</td>
+                                <td>Est√°tica</td>
 
 
                             </tr>
                             <tr>
-                                <td>Termodin‚mica</td>
+                                <td>Termodin√¢mica</td>
 
 
                             </tr>
                             <tr>
-                                <td>Circuitos elÈtricos</td>
+                                <td>Circuitos el√©tricos</td>
 
                         </table>
 
                     </div><br><br>
 
                     <p style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">
-                        QuÌmica</p>
+                        Qu√≠mica</p>
                     <div>
 
                         <table style="font-family: Poppins-Regular, sans-serif;">
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
 
 
                             </tr>
                             <tr>
-                                <td>Conceitos da Tabela PeriÛdica</td>
+                                <td>Conceitos da Tabela Peri√≥dica</td>
 
 
                             </tr>
                             <tr>
-                                <td>C·lculo EstequiomÈtrico</td>
+                                <td>C√°lculo Estequiom√©trico</td>
 
 
                             </tr>
                             <tr>
-                                <td>ReaÁıes de combust„o</td>
+                                <td>Rea√ß√µes de combust√£o</td>
 
 
                             </tr>
                             <tr>
-                                <td>QuÌmica Org‚nica</td>
+                                <td>Qu√≠mica Org√¢nica</td>
 
 
                         </table>
@@ -1500,7 +1500,7 @@
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
 
 
                             </tr>
@@ -1510,7 +1510,7 @@
 
                             </tr>
                             <tr>
-                                <td>GenÈtica</td>
+                                <td>Gen√©tica</td>
 
 
                             </tr>
@@ -1520,7 +1520,7 @@
 
                             </tr>
                             <tr>
-                                <td>Bot‚nica</td>
+                                <td>Bot√¢nica</td>
                             </tr>
                             <tr>
                                 <td>Estrutura celular</td>
@@ -1531,19 +1531,19 @@
                     </div><br><br>
 
                     <p style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">
-                        HistÛria</p>
+                        Hist√≥ria</p>
                     <div>
 
                         <table style="font-family: Poppins-Regular, sans-serif;">
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
 
 
                             </tr>
                             <tr>
-                                <td>HistÛria do Brasil (principalmente republicano e colonial)</td>
+                                <td>Hist√≥ria do Brasil (principalmente republicano e colonial)</td>
 
 
                             </tr>
@@ -1553,7 +1553,7 @@
 
                             </tr>
                             <tr>
-                                <td>CivilizaÁıes Antigas</td>
+                                <td>Civiliza√ß√µes Antigas</td>
 
 
                             </tr>
@@ -1574,27 +1574,27 @@
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
 
 
                             </tr>
                             <tr>
-                                <td>GeopolÌtica</td>
+                                <td>Geopol√≠tica</td>
 
 
                             </tr>
                             <tr>
-                                <td>Geografia Humana e FÌsica</td>
+                                <td>Geografia Humana e F√≠sica</td>
 
 
                             </tr>
                             <tr>
-                                <td>RelaÁıes sociais</td>
+                                <td>Rela√ß√µes sociais</td>
 
 
                             </tr>
                             <tr>
-                                <td>RelaÁıes econÙmicas</td>
+                                <td>Rela√ß√µes econ√¥micas</td>
                             </tr>
 
 
@@ -1603,14 +1603,14 @@
                     </div><br><br>
 
                     <p style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">
-                        LÌngua Portuguesa</p>
+                        L√≠ngua Portuguesa</p>
                     <div>
 
                         <table style="font-family: Poppins-Regular, sans-serif;">
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
 
 
                             </tr>
@@ -1620,7 +1620,7 @@
 
                             </tr>
                             <tr>
-                                <td>Concord‚ncia Verbal e Nominal</td>
+                                <td>Concord√¢ncia Verbal e Nominal</td>
 
 
                             </tr>
@@ -1630,10 +1630,10 @@
 
                             </tr>
                             <tr>
-                                <td>InterpretaÁ„o de texto</td>
+                                <td>Interpreta√ß√£o de texto</td>
                             </tr>
                             <tr>
-                                <td>Gram·tica em geral</td>
+                                <td>Gram√°tica em geral</td>
                             </tr>
 
 
@@ -1642,19 +1642,19 @@
                     </div><br><br>
 
                     <p style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">
-                        Leituras ObrigatÛrias</p>
+                        Leituras Obrigat√≥rias</p>
                     <div>
 
                         <table style="font-family: Poppins-Regular, sans-serif;">
                             <tr>
                                 <th
                                     style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                    Conte˙do</th>
+                                    Conte√∫do</th>
 
 
                             </tr>
                             <tr>
-                                <td>Poemas Escolhidos, de GregÛrio de Matos</td>
+                                <td>Poemas Escolhidos, de Greg√≥rio de Matos</td>
 
 
                             </tr>
@@ -1669,19 +1669,19 @@
 
                             </tr>
                             <tr>
-                                <td>Ang˙stia, de Graciliano Ramos</td>
+                                <td>Ang√∫stia, de Graciliano Ramos</td>
                             </tr>
                             <tr>
-                                <td>A RelÌquia, de EÁa de QueirÛs</td>
+                                <td>A Rel√≠quia, de E√ßa de Queir√≥s</td>
                             </tr>
                             <tr>
                                 <td>Mayombe, de Pepetela</td>
                             </tr>
                             <tr>
-                                <td>Campo Geral, de Guimar„es Rosa</td>
+                                <td>Campo Geral, de Guimar√£es Rosa</td>
                             </tr>
                             <tr>
-                                <td>Romanceiro da InconfidÍncia, de CecÌlia Meireles</td>
+                                <td>Romanceiro da Inconfid√™ncia, de Cec√≠lia Meireles</td>
                             </tr>
                             <tr>
                                 <td>Nove Noites, de Bernardo Carvalho</td>
@@ -1696,64 +1696,64 @@
 
             <div id="unicamp" class="tabcontent">
                 <p style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">
-                    PortuguÍs</p>
+                    Portugu√™s</p>
                 <div>
 
                     <table style="font-family: Poppins-Regular, sans-serif;">
                         <tr>
                             <th
                                 style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                Conte˙do</th>
+                                Conte√∫do</th>
 
 
                         </tr>
                         <tr>
-                            <td>Figuras de linguagem (palavra, sonora, pensamento e construÁ„o)</td>
+                            <td>Figuras de linguagem (palavra, sonora, pensamento e constru√ß√£o)</td>
 
 
                         </tr>
                         <tr>
-                            <td>FormaÁ„o de palavras</td>
+                            <td>Forma√ß√£o de palavras</td>
 
 
                         </tr>
                         <tr>
-                            <td>NÌveis de linguagem</td>
+                            <td>N√≠veis de linguagem</td>
 
 
                         </tr>
                         <tr>
-                            <td>OraÁıes coordenadas</td>
+                            <td>Ora√ß√µes coordenadas</td>
 
 
                         </tr>
                         <tr>
-                            <td>OraÁıes subordinadas adverbiais</td>
+                            <td>Ora√ß√µes subordinadas adverbiais</td>
 
 
                         </tr>
                         <tr>
-                            <td>Classes gramaticais (pronomes, advÈrbios)</td>
+                            <td>Classes gramaticais (pronomes, adv√©rbios)</td>
 
 
                         </tr>
                         <tr>
-                            <td>InterpretaÁ„o de texto liter·rio em prosa</td>
+                            <td>Interpreta√ß√£o de texto liter√°rio em prosa</td>
 
 
                         </tr>
                         <tr>
-                            <td>InterpretaÁ„o de texto liter·rio em verso</td>
+                            <td>Interpreta√ß√£o de texto liter√°rio em verso</td>
 
 
                         </tr>
                         <tr>
-                            <td>InterpretaÁ„o de texto jornalÌstico</td>
+                            <td>Interpreta√ß√£o de texto jornal√≠stico</td>
 
 
                         </tr>
                         <tr>
-                            <td>Modernismo no Brasil: 3™ geraÁ„o</td>
+                            <td>Modernismo no Brasil: 3¬™ gera√ß√£o</td>
 
 
                         </tr>
@@ -1763,7 +1763,7 @@
 
                         </tr>
                         <tr>
-                            <td>PrÈ-modernismo</td>
+                            <td>Pr√©-modernismo</td>
 
 
                         </tr>
@@ -1772,30 +1772,30 @@
                 </div><br><br>
 
                 <p style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">
-                    Matem·tica</p>
+                    Matem√°tica</p>
                 <div>
 
                     <table style="font-family: Poppins-Regular, sans-serif;">
                         <tr>
                             <th
                                 style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                Conte˙do</th>
+                                Conte√∫do</th>
 
 
                         </tr>
                         <tr>
-                            <td>Razıes e proporÁıes, regra de 3, porcentagem e juros</td>
+                            <td>Raz√µes e propor√ß√µes, regra de 3, porcentagem e juros</td>
 
 
                         </tr>
                         <tr>
-                            <td>EquaÁıes e inequaÁıes envolvendo as funÁıes do 1∫ e 2∫ graus, logaritmos e
+                            <td>Equa√ß√µes e inequa√ß√µes envolvendo as fun√ß√µes do 1¬∫ e 2¬∫ graus, logaritmos e
                                 exponenciais</td>
 
 
                         </tr>
                         <tr>
-                            <td>Progressıes aritmÈticas e geomÈtricas</td>
+                            <td>Progress√µes aritm√©ticas e geom√©tricas</td>
 
 
                         </tr>
@@ -1805,50 +1805,50 @@
 
                         </tr>
                         <tr>
-                            <td>An·lise combinatÛria e probabilidade</td>
+                            <td>An√°lise combinat√≥ria e probabilidade</td>
 
 
                         </tr>
                         <tr>
-                            <td>PolinÙmios</td>
+                            <td>Polin√¥mios</td>
 
 
                         </tr>
                         <tr>
-                            <td>FunÁıes trigonomÈtricas</td>
+                            <td>Fun√ß√µes trigonom√©tricas</td>
 
 
                         </tr>
                         <tr>
-                            <td>Dist‚ncia entre dois pontos</td>
+                            <td>Dist√¢ncia entre dois pontos</td>
 
 
                         </tr>
                         <tr>
-                            <td>Estudo analÌtico da reta e da circunferÍncia</td>
+                            <td>Estudo anal√≠tico da reta e da circunfer√™ncia</td>
 
 
                         </tr>
                         <tr>
-                            <td>SemelhanÁa de tri‚ngulos</td>
+                            <td>Semelhan√ßa de tri√¢ngulos</td>
 
 
                         </tr>
                         <tr>
-                            <td>RelaÁıes mÈtricas nos tri‚ngulos ret‚ngulos</td>
+                            <td>Rela√ß√µes m√©tricas nos tri√¢ngulos ret√¢ngulos</td>
 
 
                         </tr>
                         <tr>
-                            <td>¡reas das principais figuras planas</td>
+                            <td>√Åreas das principais figuras planas</td>
 
 
                         </tr>
                         <tr>
-                            <td>¡rea e volume dos sÛlidos (prisma, pir‚mide, cilindro, cone e esfera)</td>
+                            <td>√Årea e volume dos s√≥lidos (prisma, pir√¢mide, cilindro, cone e esfera)</td>
                         </tr>
                         <tr>
-                            <td>Geometria plana e analÌtica</td>
+                            <td>Geometria plana e anal√≠tica</td>
                         </tr>
                         <tr>
                             <td>Grandezas proporcionais</td>
@@ -1857,7 +1857,7 @@
 
                 </div><br><br>
 
-                <p style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">QuÌmica
+                <p style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">Qu√≠mica
                 </p>
                 <div>
 
@@ -1865,58 +1865,58 @@
                         <tr>
                             <th
                                 style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                Conte˙do</th>
+                                Conte√∫do</th>
 
 
                         </tr>
                         <tr>
-                            <td>QuÌmica ambiental (poluiÁ„o, camada de ozÙnio, efeito estufa, chuva ·cida)</td>
+                            <td>Qu√≠mica ambiental (polui√ß√£o, camada de oz√¥nio, efeito estufa, chuva √°cida)</td>
 
 
                         </tr>
                         <tr>
-                            <td>Estequiometria (mol, massa molar, c·lculo estequiomÈtrico)</td>
+                            <td>Estequiometria (mol, massa molar, c√°lculo estequiom√©trico)</td>
 
 
                         </tr>
                         <tr>
-                            <td>LigaÁıes quÌmicas (forÁas intermoleculares, ponte de hidrogÍnio, solubilidade, ponto
-                                de ebuliÁ„o)</td>
+                            <td>Liga√ß√µes qu√≠micas (for√ßas intermoleculares, ponte de hidrog√™nio, solubilidade, ponto
+                                de ebuli√ß√£o)</td>
 
 
                         </tr>
                         <tr>
-                            <td>ReaÁıes inorg‚nicas (neutralizaÁ„o, dupla-troca, oxidorreduÁ„o, ·cidos e bases)</td>
+                            <td>Rea√ß√µes inorg√¢nicas (neutraliza√ß√£o, dupla-troca, oxidorredu√ß√£o, √°cidos e bases)</td>
 
 
                         </tr>
                         <tr>
-                            <td>Subst‚ncia e mistura (separaÁ„o de misturas, densidade, g·s perfeito)</td>
+                            <td>Subst√¢ncia e mistura (separa√ß√£o de misturas, densidade, g√°s perfeito)</td>
 
 
                         </tr>
                         <tr>
-                            <td>TermoquÌmica (Lei de Hess, energia de ligaÁ„o)</td>
+                            <td>Termoqu√≠mica (Lei de Hess, energia de liga√ß√£o)</td>
 
 
                         </tr>
                         <tr>
-                            <td>CinÈtica quÌmica (fatores que alteram a velocidade das reaÁıes)</td>
+                            <td>Cin√©tica qu√≠mica (fatores que alteram a velocidade das rea√ß√µes)</td>
 
 
                         </tr>
                         <tr>
-                            <td>EquilÌbrio quÌmico (constante de equilÌbrio, deslocamento do equilÌbrio, pH)</td>
+                            <td>Equil√≠brio qu√≠mico (constante de equil√≠brio, deslocamento do equil√≠brio, pH)</td>
 
 
                         </tr>
                         <tr>
-                            <td>EletroquÌmica (pilha, eletrÛlise)</td>
+                            <td>Eletroqu√≠mica (pilha, eletr√≥lise)</td>
 
 
                         </tr>
                         <tr>
-                            <td>FunÁıes org‚nicas (identificaÁ„o)</td>
+                            <td>Fun√ß√µes org√¢nicas (identifica√ß√£o)</td>
 
 
                         </tr>
@@ -1926,8 +1926,8 @@
 
                         </tr>
                         <tr>
-                            <td>ReaÁıes org‚nicas (esterificaÁ„o, saponificaÁ„o, transesterificaÁ„o, oxidaÁ„o de
-                                ·lcoois, bioquÌmica, polimerizaÁ„o)</td>
+                            <td>Rea√ß√µes org√¢nicas (esterifica√ß√£o, saponifica√ß√£o, transesterifica√ß√£o, oxida√ß√£o de
+                                √°lcoois, bioqu√≠mica, polimeriza√ß√£o)</td>
 
 
                         </tr>
@@ -1944,89 +1944,89 @@
                         <tr>
                             <th
                                 style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                Conte˙do</th>
+                                Conte√∫do</th>
 
 
                         </tr>
                         <tr>
-                            <td>Citologia: estruturas das cÈlulas eucariÛticas e procariÛticas e organelas e as suas
-                                funÁıes</td>
+                            <td>Citologia: estruturas das c√©lulas eucari√≥ticas e procari√≥ticas e organelas e as suas
+                                fun√ß√µes</td>
 
 
                         </tr>
                         <tr>
-                            <td>Divis„o celular: mitose e meiose e gametogenese em vegetais e animais</td>
+                            <td>Divis√£o celular: mitose e meiose e gametogenese em vegetais e animais</td>
 
 
                         </tr>
                         <tr>
-                            <td>AberraÁıes cromossÙmicas e as sÌndromes humanas</td>
+                            <td>Aberra√ß√µes cromoss√¥micas e as s√≠ndromes humanas</td>
 
 
                         </tr>
                         <tr>
-                            <td>Os principais grupos vegetais, com Ínfase para as angiospermas</td>
+                            <td>Os principais grupos vegetais, com √™nfase para as angiospermas</td>
 
 
                         </tr>
                         <tr>
-                            <td>Os principais grupos animais, especialmente os artrÛpodes e cordados</td>
+                            <td>Os principais grupos animais, especialmente os artr√≥podes e cordados</td>
 
 
                         </tr>
                         <tr>
-                            <td>Fisiologia humana da digest„o, excreÁ„o, circulaÁ„o, respiraÁ„o e reproduÁ„o com
-                                Ínfase para os hormÙnios</td>
+                            <td>Fisiologia humana da digest√£o, excre√ß√£o, circula√ß√£o, respira√ß√£o e reprodu√ß√£o com
+                                √™nfase para os horm√¥nios</td>
 
 
                         </tr>
                         <tr>
-                            <td>Ecologia: conceitos de habitat, nicho ecolÛgico e ecossistemas</td>
+                            <td>Ecologia: conceitos de habitat, nicho ecol√≥gico e ecossistemas</td>
 
 
                         </tr>
                         <tr>
-                            <td>Cadeias e teias alimentares, fluxos de matÈria e energia, pir‚mides ecolÛgicas</td>
+                            <td>Cadeias e teias alimentares, fluxos de mat√©ria e energia, pir√¢mides ecol√≥gicas</td>
 
 
                         </tr>
                         <tr>
-                            <td>Estudo das populaÁıes e relaÁıes harmÙnicas e desarmÙnicas entre os seres vivos</td>
+                            <td>Estudo das popula√ß√µes e rela√ß√µes harm√¥nicas e desarm√¥nicas entre os seres vivos</td>
 
 
                         </tr>
                         <tr>
-                            <td>EvoluÁ„o: origem da vida e teorias evolutivas</td>
+                            <td>Evolu√ß√£o: origem da vida e teorias evolutivas</td>
 
 
                         </tr>
                         <tr>
-                            <td>Sucess„o ecolÛgica e poluiÁ„o ambiental: causas e consequÍncias</td>
+                            <td>Sucess√£o ecol√≥gica e polui√ß√£o ambiental: causas e consequ√™ncias</td>
 
 
                         </tr>
                         <tr>
-                            <td>Grupos sanguÌneos: ABO, Rh e MN</td>
+                            <td>Grupos sangu√≠neos: ABO, Rh e MN</td>
 
 
                         </tr>
                         <tr>
-                            <td>Soros e vacinas, infecÁıes virÛticas e bacterianas</td>
+                            <td>Soros e vacinas, infec√ß√µes vir√≥ticas e bacterianas</td>
 
 
                         </tr>
                         <tr>
-                            <td>HormÙnios vegetais e animais e sistema imunolÛgico (doenÁas e profilaxias)</td>
+                            <td>Horm√¥nios vegetais e animais e sistema imunol√≥gico (doen√ßas e profilaxias)</td>
 
 
                         </tr>
                         <tr>
-                            <td>GenÈtica: linkage, mapas gÍnicos e replicaÁ„o</td>
+                            <td>Gen√©tica: linkage, mapas g√™nicos e replica√ß√£o</td>
 
 
                         </tr>
                         <tr>
-                            <td>Fisiologia vegetal (transporte de seiva e transpiraÁ„o), grupos dos vegetais</td>
+                            <td>Fisiologia vegetal (transporte de seiva e transpira√ß√£o), grupos dos vegetais</td>
 
 
                         </tr>
@@ -2035,7 +2035,7 @@
 
                 </div><br><br>
 
-                <p style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">FÌsica
+                <p style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">F√≠sica
                 </p>
                 <div>
 
@@ -2043,82 +2043,82 @@
                         <tr>
                             <th
                                 style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                Conte˙do</th>
+                                Conte√∫do</th>
 
 
                         </tr>
                         <tr>
-                            <td>Velocidade, aceleraÁ„o e gr·ficos</td>
+                            <td>Velocidade, acelera√ß√£o e gr√°ficos</td>
 
 
                         </tr>
                         <tr>
-                            <td>EquaÁ„o fundamental da din‚mica</td>
+                            <td>Equa√ß√£o fundamental da din√¢mica</td>
 
 
                         </tr>
                         <tr>
-                            <td>Energia e potÍncia</td>
+                            <td>Energia e pot√™ncia</td>
 
 
                         </tr>
                         <tr>
-                            <td>ConservaÁ„o da energia mec‚nica</td>
+                            <td>Conserva√ß√£o da energia mec√¢nica</td>
 
 
                         </tr>
                         <tr>
-                            <td>ConservaÁ„o da quantidade de movimento</td>
+                            <td>Conserva√ß√£o da quantidade de movimento</td>
 
 
                         </tr>
                         <tr>
-                            <td>EquilÌbrio</td>
+                            <td>Equil√≠brio</td>
 
 
                         </tr>
                         <tr>
-                            <td>GravitaÁ„o</td>
+                            <td>Gravita√ß√£o</td>
 
 
                         </tr>
                         <tr>
-                            <td>Press„o e empuxo</td>
+                            <td>Press√£o e empuxo</td>
 
 
                         </tr>
                         <tr>
-                            <td>Temperatura, dilataÁ„o, calor e gases perfeitos</td>
+                            <td>Temperatura, dilata√ß√£o, calor e gases perfeitos</td>
 
 
                         </tr>
                         <tr>
-                            <td>”ptica: reflex„o e refraÁ„o</td>
+                            <td>√ìptica: reflex√£o e refra√ß√£o</td>
 
 
                         </tr>
                         <tr>
-                            <td>ConservaÁ„o da carga, campo elÈtrico, trabalho e energia elÈtrica</td>
+                            <td>Conserva√ß√£o da carga, campo el√©trico, trabalho e energia el√©trica</td>
 
 
                         </tr>
                         <tr>
-                            <td>Corrente e potÍncia em circuitos elÈtricos</td>
+                            <td>Corrente e pot√™ncia em circuitos el√©tricos</td>
 
 
                         </tr>
                         <tr>
-                            <td>Campo e forÁa magnÈtica</td>
+                            <td>Campo e for√ßa magn√©tica</td>
 
 
                         </tr>
                         <tr>
-                            <td>Ondas, equaÁ„o fundamental e interferÍncia</td>
+                            <td>Ondas, equa√ß√£o fundamental e interfer√™ncia</td>
 
 
                         </tr>
                         <tr>
-                            <td>FÌsica moderna: equaÁ„o de Einstein e energia de fÛton</td>
+                            <td>F√≠sica moderna: equa√ß√£o de Einstein e energia de f√≥ton</td>
 
 
                         </tr>
@@ -2129,120 +2129,120 @@
                 </div><br><br>
 
                 <p style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">
-                    HistÛria</p>
+                    Hist√≥ria</p>
                 <div>
 
                     <table style="font-family: Poppins-Regular, sans-serif;">
                         <tr>
                             <th
                                 style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                Conte˙do</th>
+                                Conte√∫do</th>
 
 
                         </tr>
                         <tr>
-                            <td>Sistema colonial: produÁ„o aÁucareira e escravid„o</td>
+                            <td>Sistema colonial: produ√ß√£o a√ßucareira e escravid√£o</td>
 
 
                         </tr>
                         <tr>
-                            <td>As transformaÁıes econÙmicas e sociais durante o II Reinado, com Ínfase nos
-                                movimentos abolicionistas e republicanos, alÈm da transiÁ„o da m„o de obra
-                                escravizada para livre assalariada na cafeicultura, passando pela imigraÁ„o europeia
+                            <td>As transforma√ß√µes econ√¥micas e sociais durante o II Reinado, com √™nfase nos
+                                movimentos abolicionistas e republicanos, al√©m da transi√ß√£o da m√£o de obra
+                                escravizada para livre assalariada na cafeicultura, passando pela imigra√ß√£o europeia
                             </td>
 
 
                         </tr>
                         <tr>
-                            <td>Os principais conflitos e movimentos sociais na Rep˙blica Velha, como a Guerra de
+                            <td>Os principais conflitos e movimentos sociais na Rep√∫blica Velha, como a Guerra de
                                 Canudos, a Revolta da Vacina, a Revolta da Chibata e a Guerra do Contestado</td>
 
 
                         </tr>
                         <tr>
-                            <td>A crise da Rep˙blica das oligarquias com Ínfase em: tenentismo, modernismo e na
-                                RevoluÁ„o de 1930</td>
+                            <td>A crise da Rep√∫blica das oligarquias com √™nfase em: tenentismo, modernismo e na
+                                Revolu√ß√£o de 1930</td>
 
 
                         </tr>
                         <tr>
-                            <td>A condiÁ„o oper·ria e camponesa e as principais mudanÁas a partir da Era Vargas</td>
+                            <td>A condi√ß√£o oper√°ria e camponesa e as principais mudan√ßas a partir da Era Vargas</td>
 
 
                         </tr>
                         <tr>
-                            <td>O regime militar e a cultura brasileira na dÈcada de 1960 (festivais musicais na TV,
+                            <td>O regime militar e a cultura brasileira na d√©cada de 1960 (festivais musicais na TV,
                                 tropicalismo e o problema da censura)</td>
 
 
                         </tr>
                         <tr>
-                            <td>A nova rep˙blica e as tensıes sociais no contexto da redemocratizaÁ„o: movimentos de
-                                sem-terra e sem-teto, movimentos de consciÍncia negra e condiÁ„o feminina</td>
+                            <td>A nova rep√∫blica e as tens√µes sociais no contexto da redemocratiza√ß√£o: movimentos de
+                                sem-terra e sem-teto, movimentos de consci√™ncia negra e condi√ß√£o feminina</td>
 
 
                         </tr>
                         <tr>
-                            <td>Renascimento, Grandes NavegaÁıes, Absolutismo</td>
+                            <td>Renascimento, Grandes Navega√ß√µes, Absolutismo</td>
 
 
                         </tr>
                         <tr>
-                            <td>A Era das RevoluÁıes no sÈculo XVIII, no inÌcio do sÈculo XIX e a difus„o do
-                                liberalismo polÌtico</td>
+                            <td>A Era das Revolu√ß√µes no s√©culo XVIII, no in√≠cio do s√©culo XIX e a difus√£o do
+                                liberalismo pol√≠tico</td>
 
 
                         </tr>
                         <tr>
-                            <td>A RevoluÁ„o Industrial e a condiÁ„o oper·ria na Europa ao longo do sÈculo XIX</td>
+                            <td>A Revolu√ß√£o Industrial e a condi√ß√£o oper√°ria na Europa ao longo do s√©culo XIX</td>
 
 
                         </tr>
                         <tr>
-                            <td>Imperialismo e colonialismo no sÈculo XIX (conflitos e reaÁıes na ¡frica e na ¡sia)
+                            <td>Imperialismo e colonialismo no s√©culo XIX (conflitos e rea√ß√µes na √Åfrica e na √Åsia)
                             </td>
 
 
                         </tr>
                         <tr>
-                            <td>Ditaduras e totalitarismos nas primeiras dÈcadas do sÈculo XX: regime soviÈtico,
+                            <td>Ditaduras e totalitarismos nas primeiras d√©cadas do s√©culo XX: regime sovi√©tico,
                                 fascismo, nazismo, salazarismo e franquismo</td>
 
 
                         </tr>
                         <tr>
-                            <td>Guerras Mundiais e perÌodo entre guerras</td>
+                            <td>Guerras Mundiais e per√≠odo entre guerras</td>
 
 
                         </tr>
                         <tr>
-                            <td>Guerra Fria: principais caracterÌsticas (competiÁ„o entre os EUA e a URSS e armas
+                            <td>Guerra Fria: principais caracter√≠sticas (competi√ß√£o entre os EUA e a URSS e armas
                                 nucleares) e conflitos, com destaque para a Guerra da Coreia (1950-53)</td>
 
 
                         </tr>
                         <tr>
-                            <td>O Terceiro Mundo e a Guerra Fria (ConferÍncia de Bandung em 1955, a RevoluÁ„o Cubana
-                                e a RevoluÁ„o Iraniana de 1979)</td>
+                            <td>O Terceiro Mundo e a Guerra Fria (Confer√™ncia de Bandung em 1955, a Revolu√ß√£o Cubana
+                                e a Revolu√ß√£o Iraniana de 1979)</td>
 
 
                         </tr>
                         <tr>
                             <td>Reformas de Gorbachev, fim da URSS e dos regimes socialistas do leste europeu, com
-                                Ínfase na queda do muro de Berlim e na reunificaÁ„o alem„</td>
+                                √™nfase na queda do muro de Berlim e na reunifica√ß√£o alem√£</td>
 
 
                         </tr>
                         <tr>
-                            <td>GlobalizaÁ„o, nacionalismos e separatismos: as tensıes entre a mundializaÁ„o das
-                                relaÁıes econÙmicas e avanÁos tecnolÛgicos, de um lado, e os particularismos
-                                nacionais, Ètnicos e religiosos, de outro</td>
+                            <td>Globaliza√ß√£o, nacionalismos e separatismos: as tens√µes entre a mundializa√ß√£o das
+                                rela√ß√µes econ√¥micas e avan√ßos tecnol√≥gicos, de um lado, e os particularismos
+                                nacionais, √©tnicos e religiosos, de outro</td>
 
 
                         </tr>
                         <tr>
-                            <td>Fundamentalismos religiosos com Ínfase nos grupos jihadistas, como al-Qaeda e Estado
-                                Isl‚mico</td>
+                            <td>Fundamentalismos religiosos com √™nfase nos grupos jihadistas, como al-Qaeda e Estado
+                                Isl√¢mico</td>
 
 
                         </tr>
@@ -2260,47 +2260,47 @@
                         <tr>
                             <th
                                 style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                Conte˙do</th>
+                                Conte√∫do</th>
 
 
                         </tr>
                         <tr>
-                            <td>UrbanizaÁ„o mundial e do Brasil</td>
+                            <td>Urbaniza√ß√£o mundial e do Brasil</td>
 
 
                         </tr>
                         <tr>
-                            <td>Sistemas, produÁ„o e questıes agr·rias no Brasil</td>
+                            <td>Sistemas, produ√ß√£o e quest√µes agr√°rias no Brasil</td>
 
 
                         </tr>
                         <tr>
-                            <td>PopulaÁ„o mundial e do Brasil: conceitos, estrutura, evoluÁ„o e movimentos</td>
+                            <td>Popula√ß√£o mundial e do Brasil: conceitos, estrutura, evolu√ß√£o e movimentos</td>
 
 
                         </tr>
                         <tr>
-                            <td>ProjeÁıes cartogr·ficas</td>
+                            <td>Proje√ß√µes cartogr√°ficas</td>
 
 
                         </tr>
                         <tr>
-                            <td>Clima: din‚mica atmosfÈrica</td>
+                            <td>Clima: din√¢mica atmosf√©rica</td>
 
 
                         </tr>
                         <tr>
-                            <td>Relevo, vegetaÁ„o e hidrografia</td>
+                            <td>Relevo, vegeta√ß√£o e hidrografia</td>
 
 
                         </tr>
                         <tr>
-                            <td>Conceitos geomorfolÛgicos e din‚mica geolÛgica</td>
+                            <td>Conceitos geomorfol√≥gicos e din√¢mica geol√≥gica</td>
 
 
                         </tr>
                         <tr>
-                            <td>DomÌnios morfoclim·ticos</td>
+                            <td>Dom√≠nios morfoclim√°ticos</td>
 
 
                         </tr>
@@ -2310,32 +2310,32 @@
 
                         </tr>
                         <tr>
-                            <td>Quest„o ambiental</td>
+                            <td>Quest√£o ambiental</td>
 
 
                         </tr>
                         <tr>
-                            <td>RegionalizaÁ„o mundial: destaque para Europa, Oriente MÈdio, ¡frica e AmÈrica</td>
+                            <td>Regionaliza√ß√£o mundial: destaque para Europa, Oriente M√©dio, √Åfrica e Am√©rica</td>
 
 
                         </tr>
                         <tr>
-                            <td>Infraestrutura produtiva: agropecu·ria energia, transportes e telecomunicaÁıes</td>
+                            <td>Infraestrutura produtiva: agropecu√°ria energia, transportes e telecomunica√ß√µes</td>
 
 
                         </tr>
                         <tr>
-                            <td>A geopolÌtica do sÈculo XX: Bipolaridade, Nova Ordem Mundial e globalizaÁ„o</td>
+                            <td>A geopol√≠tica do s√©culo XX: Bipolaridade, Nova Ordem Mundial e globaliza√ß√£o</td>
 
 
                         </tr>
                         <tr>
-                            <td>FormaÁ„o de furacıes</td>
+                            <td>Forma√ß√£o de furac√µes</td>
 
 
                         </tr>
                         <tr>
-                            <td>Farcs e ColÙmbia</td>
+                            <td>Farcs e Col√¥mbia</td>
 
 
                         </tr>
@@ -2355,7 +2355,7 @@
 
                         </tr>
                         <tr>
-                            <td>Os problemas de fome na ¡frica</td>
+                            <td>Os problemas de fome na √Åfrica</td>
 
 
                         </tr>
@@ -2370,7 +2370,7 @@
 
                         </tr>
                         <tr>
-                            <td>Uni„o Europeia</td>
+                            <td>Uni√£o Europeia</td>
 
 
                         </tr>
@@ -2385,7 +2385,7 @@
 
                 </div><br><br>
 
-                <p style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">InglÍs
+                <p style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">Ingl√™s
                 </p>
                 <div>
 
@@ -2393,17 +2393,17 @@
                         <tr>
                             <th
                                 style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                Conte˙do</th>
+                                Conte√∫do</th>
 
 
                         </tr>
                         <tr>
-                            <td>Conectores lÛgicos</td>
+                            <td>Conectores l√≥gicos</td>
 
 
                         </tr>
                         <tr>
-                            <td>Palavras e expressıes que definem adiÁ„o de ideias (and, in addition to, besides)
+                            <td>Palavras e express√µes que definem adi√ß√£o de ideias (and, in addition to, besides)
                             </td>
 
 
@@ -2414,17 +2414,17 @@
 
                         </tr>
                         <tr>
-                            <td>Causa e consequÍncia (hence, therefore, since, because)</td>
+                            <td>Causa e consequ√™ncia (hence, therefore, since, because)</td>
 
 
                         </tr>
                         <tr>
-                            <td> nfase (actually, indeed)</td>
+                            <td>√änfase (actually, indeed)</td>
 
 
                         </tr>
                         <tr>
-                            <td>ComparaÁ„o (in the same way, likewise)</td>
+                            <td>Compara√ß√£o (in the same way, likewise)</td>
 
 
                         </tr>
@@ -2445,19 +2445,19 @@
                 </div><br><br>
 
                 <p style="font-family: Poppins-Regular, sans-serif; font-size: 30px; color:rgb(199, 169, 0)">
-                    Leiruras ObrigatÛrias</p>
+                    Leiruras Obrigat√≥rias</p>
                 <div>
 
                     <table style="font-family: Poppins-Regular, sans-serif;">
                         <tr>
                             <th
                                 style="font-family: Poppins-Regular, sans-serif; font-size: large; color:rgb(12, 88, 100); text-align: center;">
-                                Conte˙do</th>
+                                Conte√∫do</th>
 
 
                         </tr>
                         <tr>
-                            <td>Sonetos, de Camıes</td>
+                            <td>Sonetos, de Cam√µes</td>
 
 
                         </tr>
@@ -2467,7 +2467,7 @@
 
                         </tr>
                         <tr>
-                            <td>A teus pÈs, de Ana Cristina Cesar</td>
+                            <td>A teus p√©s, de Ana Cristina Cesar</td>
 
 
                         </tr>
@@ -2477,7 +2477,7 @@
 
                         </tr>
                         <tr>
-                            <td>A hora e vez de Augusto Matraga, de Guimar„es Rosa</td>
+                            <td>A hora e vez de Augusto Matraga, de Guimar√£es Rosa</td>
 
 
                         </tr>
@@ -2492,17 +2492,17 @@
 
                         </tr>
                         <tr>
-                            <td>CoraÁ„o, cabeÁa e estÙmago, de Camilo Castelo Branco</td>
+                            <td>Cora√ß√£o, cabe√ßa e est√¥mago, de Camilo Castelo Branco</td>
 
 
                         </tr>
                         <tr>
-                            <td>Caminhos cruzados, de …rico VerÌssimo</td>
+                            <td>Caminhos cruzados, de √ârico Ver√≠ssimo</td>
 
 
                         </tr>
                         <tr>
-                            <td>HistÛria do Cerco de Lisboa, de JosÈ Saramago</td>
+                            <td>Hist√≥ria do Cerco de Lisboa, de Jos√© Saramago</td>
 
 
                         </tr>
@@ -2512,18 +2512,18 @@
 
                         </tr>
                         <tr>
-                            <td>Serm„o de Quarta-feira de Cinza: Ano de 1672</td>
+                            <td>Serm√£o de Quarta-feira de Cinza: Ano de 1672</td>
 
 
                         </tr>
                         <tr>
-                            <td>Serm„o de Quarta-feira de Cinza: Ano de 1673, aos 15 de fevereiro, dia da
-                                trasladaÁ„o do mesmo Santo</td>
+                            <td>Serm√£o de Quarta-feira de Cinza: Ano de 1673, aos 15 de fevereiro, dia da
+                                traslada√ß√£o do mesmo Santo</td>
 
 
                         </tr>
                         <tr>
-                            <td>Serm„o de Quarta-feira de Cinza: Para a Capela Real, que se n„o pregou por
+                            <td>Serm√£o de Quarta-feira de Cinza: Para a Capela Real, que se n√£o pregou por
                                 enfermidade do autor</td>
 
 

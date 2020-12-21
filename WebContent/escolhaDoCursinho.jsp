@@ -1,16 +1,14 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Vestibule-se - Escolha do Cursinho</title>
-<link rel="stylesheet" href="css/telaInicial.css">
-<link rel="stylesheet" href="css/escolhaDoCursinho.css">
 <link rel="stylesheet" href="css/util.css">
 <link rel="stylesheet" href="css/main.css">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/telaInicial.css">
+<link rel="stylesheet" href="css/escolhaDoCursinho.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -137,10 +135,9 @@
   }
 </script>
 </head>
-<body>
+<body onload="toggle()">
 
-  
-
+<div id="blur">
 
 <nav class="navbar navbar-expand-sm bg-info navbar-light" >
 <a class="navbar-brand" href="#"></a>
@@ -172,28 +169,25 @@
         <a class="nav-link"  href="bibliotecaVirtual.jsp" style="font-size: 20px;">Biblioteca Virtual</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="listaDeConteudo.jsp" style="font-size: 20px">Lista De Conteúdo</a>
+        <a class="nav-link" href="listaDeConteudo.jsp" style="font-size: 20px">Lista De ConteÃºdo</a>
       </li>
       <li class="dropdown">
-          <button  class="btn btn-ligth dropdown-toggle" style="font-size: 20px; color: rgb(0, 123, 255);font-family: Poppins-Regular, sans-serif" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Questões
-            </button> 
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="questoesMatematica.jsp">Matemática</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="questoesPortugues.jsp">Português</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="questoesHistoria.jsp">História</a>
-              <a class="dropdown-item" href="questoesGeografia.jsp">Geografia</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="questoesFisica.jsp">Física</a>
-              <a class="dropdown-item" href="questoesQuimica.jsp">Química</a>
-              <a class="dropdown-item" href="questoesBiologia.jsp">Biologia</a>
-            </div>    
-            </li>
-
-          
-        </li>
+        <button  class="btn btn-ligth dropdown-toggle" style="font-size: 20px; color: rgb(0, 123, 255);font-family: Poppins-Regular, sans-serif" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          QuestÃµes
+        </button> 
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="questoesMatematica.jsp">MatemÃ¡tica</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="questoesPortugues.jsp">PortuguÃªs</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="questoesHistoria.jsp">HistÃ³ria</a>
+            <a class="dropdown-item" href="questoesGeografia.jsp">Geografia</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="questoesFisica.jsp">FÃ­sica</a>
+            <a class="dropdown-item" href="questoesQuimica.jsp">QuÃ­mica</a>
+            <a class="dropdown-item" href="questoesBiologia.jsp">Biologia</a>
+          </div>    
+      </li>
         
         <li class="nav-item">
           <a class="nav-link" href="dicasDeEstudos.jsp" style="font-size: 20px">Dicas De Estudos</a>
@@ -202,7 +196,7 @@
           <a class="nav-link" href="escolhaDoCursinho.jsp" style="font-size: 20px">Escolha do Cursinho</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="dicasSobreRedacao.jsp" style="font-size: 20px">Dicas Sobre Redação</a>
+          <a class="nav-link" href="dicasSobreRedacao.jsp" style="font-size: 20px">Dicas Sobre RedaÃ§Ã£o</a>
         </li><br>
 
         <li class="nav-item">
@@ -225,25 +219,25 @@
         
           <div class="container">
             <label for="uname" style="font-family: Poppins-Regular, sans-serif"><b>Cidade</b></label>
-            <input type="text"  placeholder="Enter Username" name="uname" required><br><br>
+            <input type="text"  placeholder="Enter City" name="uname" required disabled><br><br>
 
           
               <label for="uname" style="font-family: Poppins-Regular, sans-serif"><b>Tipo de Curso</b></label><br>
-              <input type="radio" value="0" name="campo-radio" id="campo-radio1" />
+              <input type="radio" value="0" name="campo-radio" id="campo-radio1" disabled/>
               <label for="campo-radio1" style="font-family: Poppins-Regular, sans-serif">Presencial</label><br>
-              <input type="radio" value="0" name="campo-radio" id="campo-radio2" />
+              <input type="radio" value="0" name="campo-radio" id="campo-radio2" disabled/>
               <label for="campo-radio2" style="font-family: Poppins-Regular, sans-serif">Online</label> <br><br>
           
           
         
-            <label for="psw" style="font-family: Poppins-Regular, sans-serif"><b>Valor Máximo Pretendido</b></label>
-            <input type="Text" style="color: black"  name="texto" size="10" maxlength="10" onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="Ex.: 2000,00" />
+            <label for="psw" style="font-family: Poppins-Regular, sans-serif"><b>Valor MÃ¡ximo Pretendido</b></label>
+            <input type="Text" style="color: black"  name="texto" size="10" maxlength="10" onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="Ex.: 2000,00" disabled/>
 
             
           </div>
         
           <div class="container" style="background-color:#f1f1f1">
-            <button class="botao" type="button" class="cancelbtn" style="font-family: Poppins-Regular, sans-serif">Buscar</button>
+            <button class="botao cancelbtn" type="submit" style="font-family: Poppins-Regular, sans-serif" disabled>Buscar</button>
           </div>
         </form>
         
@@ -262,7 +256,21 @@
 <p>Telefone: (11) 4002-8922 | Whatsapp: (11) 94075-5736 | E-mail: thegoldencode.tgc@gmail.com</p>
 </div>
 
+</div>
+<div id="popup">
+  <h3>Funcionalidade em Desenvolvimento :(</h3>
+  <p>Esta funcionalidade ainda estÃ¡ em desenvolvimento, porÃ©m, ela estarÃ¡ disponÃ­vel em breve :)</p>
+  <button id="btn-popup" onclick="toggle()">Ok, entendi!</button>
+</div>
 
+<script type="text/javascript">
+	function toggle(){
+    var blur = document.getElementById('blur');
+    blur.classList.toggle('active');
+    var popup = document.getElementById('popup');
+    popup.classList.toggle('active');
+  }
+</script>
   
 </body>
 </html>
